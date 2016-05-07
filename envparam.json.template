@@ -5,7 +5,7 @@
     "shortdomain": "PRODDOMAIN",
     "engine": "java7"
   },
-  "nodes": [ 
+  "nodes": [
     {
       "nodeType": "docker",
       "nodeGroup": "cp",
