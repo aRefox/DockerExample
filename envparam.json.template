@@ -20,12 +20,12 @@
         "image": "DOMAIN_NAME:latest",
         "env": {
           "APPNAME": "WordpressExam",
-          "REGION": "default_hn_group"
+          "REGION": "default_hn_group",
           "DOMAINNAME": "wordpressexam",
           "PRODDOMAIN": "realwordpressexam",
-          "LOGINNAME": "andriy.kyrychuk@hivext.net",
+          "LOGINNAME": "andriy.kyrychuk@jelastic.com",
           "LOGINPASS": "abcABC123",
-          "PLATFORMURL": "app.stage.jelastic.com",
+          "PLATFORMURL": "app.demo.jelastic.com",
           "TARGETAPPID": "",
           "CURRENT_PRODUCTION_ID": "",
           "CURRENT_PRODUCTION_DOMAIN": "",
