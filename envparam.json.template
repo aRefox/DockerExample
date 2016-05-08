@@ -15,7 +15,7 @@
       "displayName": "APP_NAME",
       "docker": {
         "registry": {
-          "url": "node72669-private-reg.demo.jelastic.com:11113"
+          "url": "private-registry.demo.jelastic.com"
         },
         "image": "DOMAIN_NAME:latest",
         "env": {
