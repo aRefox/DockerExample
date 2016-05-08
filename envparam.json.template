@@ -1,8 +1,8 @@
 {
   "env": {
-    "region": "REGION",
-    "displayName": "APPNAME",
-    "shortdomain": "PRODDOMAIN",
+    "region": "APP_REGION",
+    "displayName": "APP_NAME",
+    "shortdomain": "APP_DOMAIN",
     "engine": "java7"
   },
   "nodes": [ 
@@ -12,14 +12,15 @@
       "count": 1,
       "fixedCloudlets": 1,
       "flexibleCloudlets": 16,
-      "displayName": "APPNAME",
+      "displayName": "APP_NAME",
       "docker": {
         "registry": {
           "url": "node72669-private-reg.demo.jelastic.com:11113"
         },
-        "image": "DOMAINNAME:latest",
+        "image": "DOMAIN_NAME:latest",
         "env": {
           "APPNAME": "WordpressExam",
+          "REGION": "default_hn_group"
           "DOMAINNAME": "wordpressexam",
           "LOGINNAME": "andriy.kyrychuk@hivext.net",
           "LOGINPASS": "abcABC123",
