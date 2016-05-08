@@ -22,6 +22,7 @@
           "APPNAME": "WordpressExam",
           "REGION": "default_hn_group"
           "DOMAINNAME": "wordpressexam",
+          "PRODDOMAIN": "realwordpressexam",
           "LOGINNAME": "andriy.kyrychuk@hivext.net",
           "LOGINPASS": "abcABC123",
           "PLATFORMURL": "app.stage.jelastic.com",
