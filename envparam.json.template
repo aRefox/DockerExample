@@ -2,7 +2,7 @@
   "env": {
     "region": "APP_REGION",
     "displayName": "APP_NAME",
-    "shortdomain": "APP_DOMAIN",
+    "shortdomain": "DOMAIN_NAME",
     "engine": "java7"
   },
   "nodes": [ 
