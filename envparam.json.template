@@ -17,7 +17,7 @@
         "registry": {
           "url": "private-registry.demo.jelastic.com"
         },
-        "image": "DOMAIN_NAME:test",
+        "image": "DOMAIN_NAME",
         "env": {
           "APPNAME": "WordpressExam",
           "REGION": "default_hn_group",
