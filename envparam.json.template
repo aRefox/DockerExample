@@ -17,7 +17,7 @@
         "registry": {
           "url": "REG_URL"
         },
-        "image": "DOMAIN_NAME",
+        "image": "DOMAIN_NAME:latest",
         "env": {
           "DEV_PLATFORMURL": "demo.jelastic.com",
           "QA_PLATFORMURL": "demo.jelastic.com",
@@ -25,9 +25,9 @@
           "DEV_REGION": "default_hn_group",
           "QA_REGION": "default_hn_group",
           "PROD_REGION": "default_hn_group",
-          "DEV_APPNAME": "dev CICD",
-          "QA_APPNAME": "qa CICD",
-          "PROD_APPNAME": "prod CICD",
+          "DEV_APPNAME": "devCICD",
+          "QA_APPNAME": "qaCICD",
+          "PROD_APPNAME": "prodCICD",
           "DEV_DOMAINNAME": "devcicd",
           "QA_DOMAINNAME": "qacicd",
           "PROD_DOMAINNAME": "prodcicd",
@@ -39,14 +39,7 @@
           "PROD_LOGINPASS": "abcABC123",
           "DEV_REGISTRYURL": "node72669-private-reg.demo.jelastic.com:11113",
           "QA_REGISTRYURL": "node72669-private-reg.demo.jelastic.com:11113",
-          "PROD_REGISTRYURL": "node72669-private-reg.demo.jelastic.com:11113",
-          "TARGETAPPID": "",
-          "CURRENT_PRODUCTION_ID": "",
-          "CURRENT_PRODUCTION_DOMAIN": "",
-          "NEW_PRODUCTION_ID": "",
-          "NEW_PRODUCTION_DOMAIN": "",
-          "ENVAMOUNT": "0",
-          "ENVCOUNT": "0"
+          "PROD_REGISTRYURL": "node72669-private-reg.demo.jelastic.com:11113"
         }
       }
     }
