@@ -17,8 +17,9 @@
         "registry": {
           "url": "REG_URL"
         },
-        "image": "DOMAIN_NAME:latest",
+        "image": "IMAGE_NAME",
         "env": {
+          "IMAGENAME": "imagecicd:latest",
           "DEV_PLATFORMURL": "demo.jelastic.com",
           "QA_PLATFORMURL": "demo.jelastic.com",
           "PROD_PLATFORMURL": "demo.jelastic.com",
