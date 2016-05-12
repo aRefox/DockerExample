@@ -20,7 +20,7 @@
         "image": "IMAGE_NAMEDOCKER_TAG",
         "env": {
           "IMAGENAME": "imagecicd",
-          "QA_TAG": ":1.0.0.1"
+          "QA_TAG": ":1.0.0.1",
           "DEV_PLATFORMURL": "demo.jelastic.com",
           "QA_PLATFORMURL": "demo.jelastic.com",
           "PROD_PLATFORMURL": "demo.jelastic.com",
