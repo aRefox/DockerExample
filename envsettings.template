@@ -24,5 +24,3 @@ PRDO_REGISTRYURL=node72669-private-reg.demo.jelastic.com:11113
 PROD_TAG=latest
 DOCKER_HOST=tcp://104.45.89.9:5555
 IMAGENAME=imagecicd
-
-
