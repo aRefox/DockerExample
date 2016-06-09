@@ -2,8 +2,7 @@
   "env": {
     "region": "APP_REGION",
     "displayName": "APP_NAME",
-    "shortdomain": "DOMAIN_NAME",
-    "engine": "java7"
+    "shortdomain": "DOMAIN_NAME"
   },
   "nodes": [ 
     {
@@ -17,17 +16,14 @@
         "registry": {
           "url": "REG_URL"
         },
-<<<<<<< HEAD
-        "image": "DOMAIN_NAMEDOCKER_TAG",
-        "env": {
-          "DEV_PLATFORMURL": "stage.jelastic.com",
-          "QA_PLATFORMURL": "stage.jelastic.com",
-          "PROD_PLATFORMURL": "stage.jelastic.com",
-          "DEV_REGION": "default_hn_group_1",
-          "QA_REGION": "default_hn_group_1",
-          "PROD_REGION": "default_hn_group_1",
-=======
         "image": "IMAGE_NAME:DOCKER_TAG",
+        "volumes" : ["/var/www/wp-content"],
+        "volumeMounts": {
+          "/var/www/wp-content": {
+            "sourcePath" : "/data/var/www/wp-content",
+            "sourceNodeId" : "DATACONTAINER"
+          }
+        },
         "env": {
           "IMAGENAME": "imagecicd",
           "QA_TAG": "1.0.0.1",
@@ -37,7 +33,6 @@
           "DEV_REGION": "default_hn_group",
           "QA_REGION": "default_hn_group",
           "PROD_REGION": "default_hn_group",
->>>>>>> 3cf9b45636d0878357425625e39223f0b29eabcf
           "DEV_APPNAME": "devCICD",
           "QA_APPNAME": "qaCICD",
           "PROD_APPNAME": "prodCICD",
@@ -52,10 +47,7 @@
           "PROD_LOGINPASS": "abcABC123",
           "DEV_REGISTRYURL": "node72669-private-reg.demo.jelastic.com:11113",
           "QA_REGISTRYURL": "node72669-private-reg.demo.jelastic.com:11113",
-          "PROD_REGISTRYURL": "node72669-private-reg.demo.jelastic.com:11113",
-          "DEV_TAG": ":1.0.0.1",
-          "QA_TAG": ":1.0.0.1",
-          "PROD_TAG": ":1.0.0.1"
+          "PROD_REGISTRYURL": "node72669-private-reg.demo.jelastic.com:11113"
         }
       }
     }
