@@ -17,27 +17,16 @@
         "registry": {
           "url": "REG_URL"
         },
-<<<<<<< HEAD
-        "image": "DOMAIN_NAMEDOCKER_TAG",
+        "image": "IMAGE_NAME:DOCKER_TAG",
         "env": {
+          "IMAGENAME": "imagecicd",
+          "QA_TAG": "1.0.0.1",
           "DEV_PLATFORMURL": "stage.jelastic.com",
           "QA_PLATFORMURL": "stage.jelastic.com",
           "PROD_PLATFORMURL": "stage.jelastic.com",
           "DEV_REGION": "default_hn_group_1",
           "QA_REGION": "default_hn_group_1",
           "PROD_REGION": "default_hn_group_1",
-=======
-        "image": "IMAGE_NAME:DOCKER_TAG",
-        "env": {
-          "IMAGENAME": "imagecicd",
-          "QA_TAG": "1.0.0.1",
-          "DEV_PLATFORMURL": "demo.jelastic.com",
-          "QA_PLATFORMURL": "demo.jelastic.com",
-          "PROD_PLATFORMURL": "demo.jelastic.com",
-          "DEV_REGION": "default_hn_group",
-          "QA_REGION": "default_hn_group",
-          "PROD_REGION": "default_hn_group",
->>>>>>> 3cf9b45636d0878357425625e39223f0b29eabcf
           "DEV_APPNAME": "devCICD",
           "QA_APPNAME": "qaCICD",
           "PROD_APPNAME": "prodCICD",
