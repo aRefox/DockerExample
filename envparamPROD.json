@@ -21,7 +21,7 @@
         "volumeMounts": {
           "/var/www/wp-content": {
             "sourcePath" : "/data/var/www/wp-content",
-            "sourceNodeId" : "116405"
+            "sourceNodeId" : "DATACONTAINER"
           }
         },
         "env": {
