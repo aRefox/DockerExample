@@ -1,11 +1,11 @@
 export DEV_APPNAME="dev_CICD"
 export DEV_DOMAINNAME="devCICD"
-export DEV_LOGINNAME="andriy.kyrychuk@hivext.net"
+export DEV_LOGINNAME="andriy.kyrychuk@hivext.net
 export DEV_LOGINPASS="abcABC123"
 export DEV_PLATFORMURL="stage.jelastic.com"
 export DEV_REGION="default_hn_group_1"
 export DEV_REGISTRYURL="node72669-private-reg.demo.jelastic.com:11113"
-export DEV_TAG="160517112436"
+export DEV_TAG="160610083926"
 export QA_APPNAME="qa_CICD"
 export QA_DOMAINNAME="qaCICD"
 export QA_LOGINNAME="andriy.kyrychuk@hivext.net"
