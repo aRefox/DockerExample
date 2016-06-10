@@ -23,31 +23,6 @@
             "sourcePath" : "/data/var/www/wp-content",
             "sourceNodeId" : "DATACONTAINER"
           }
-        },
-        "env": {
-          "IMAGENAME": "imagecicd",
-          "QA_TAG": "1.0.0.1",
-          "DEV_PLATFORMURL": "stage.jelastic.com",
-          "QA_PLATFORMURL": "stage.jelastic.com",
-          "PROD_PLATFORMURL": "stage.jelastic.com",
-          "DEV_REGION": "default_hn_group_1",
-          "QA_REGION": "default_hn_group_1",
-          "PROD_REGION": "default_hn_group_1",
-          "DEV_APPNAME": "devCICD",
-          "QA_APPNAME": "qaCICD",
-          "PROD_APPNAME": "prodCICD",
-          "DEV_DOMAINNAME": "devCICD",
-          "QA_DOMAINNAME": "qaCICD",
-          "PROD_DOMAINNAME": "prodCICD",
-          "DEV_LOGINNAME": "andriy.kyrychuk@hivext.net",
-          "QA_LOGINNAME": "andriy.kyrychuk@hivext.net",
-          "PROD_LOGINNAME": "andriy.kyrychuk@hivext.net",
-          "DEV_LOGINPASS": "abcABC123",
-          "QA_LOGINPASS": "abcABC123",
-          "PROD_LOGINPASS": "abcABC123",
-          "DEV_REGISTRYURL": "node72669-private-reg.demo.jelastic.com:11113",
-          "QA_REGISTRYURL": "node72669-private-reg.demo.jelastic.com:11113",
-          "PROD_REGISTRYURL": "node72669-private-reg.demo.jelastic.com:11113"
         }
       }
     }
